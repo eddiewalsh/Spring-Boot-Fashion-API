@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yst6hZ++c34vV8gj4cEr6/lNIpfA4N0+1C53Ij6cKRRjPFdJAlLpt3DY6f0M1NjHtj2LciL+1WWjeHCErQZSRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eddie\\Desktop\\ZeloraClient\\ZeloraClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eddie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

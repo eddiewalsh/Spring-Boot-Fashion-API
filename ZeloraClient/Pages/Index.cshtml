@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="get">
+    <label for="customerId">Enter Customer Email:</label>
+    <input type="text" id="customerEmail" name="customerEmail" required>
+    <button type="submit">Submit</button>
+</form>
+
+
+@if (Model.Customer != null)
+{
+    <div>
+        <h2>Customer Details:</h2>
+        <p>First Name: @Model.Customer.firstName</p>
+        <p>Last Name: @Model.Customer.lastName</p>
+        <p>Email: @Model.Customer.email</p>
+        <p>VIP Status: @Model.Customer.vipStatus</p>
+    </div>
+}
+</div>
+
